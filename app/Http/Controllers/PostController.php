@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 
 class PostController extends Controller
 {
@@ -14,23 +16,18 @@ class PostController extends Controller
     
     public function store(Request $request)
     {
-        // Post::create([
-        //     'user_id' => auth()->user()->id,
-        //     'title' => $request->title,
-        //     'slug' =>  ($request->title),
-        //     'category_id' => $request->category_id,
-        //     'image' =>  'default-image',
-        //     'description' => $request->description,
-        // ]);
-        $post = new Post();
 
-        $post->user_id = auth()->user()->id;
-
-        $post->title=$request->title;
-        $post->slug = ($request->title);
-        $post->category_id = $request->category_id;
-        $post->image= 'default_image';
-        $post->description=$request->description;
-        $post->save();
+        $create = Post::create([
+            'user_id' => Auth::user()->id,
+            'category_id' => $request->category_id,
+            'title' => $request->title,
+            'slug' => Str::slug($request->title),
+            'image' => 'default',
+            'description' => $request->description,
+ 
+           ]);
+    
+    
+           return view('/');
     }
 }

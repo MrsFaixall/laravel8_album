@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-md-6 mx-auto text-center">
                 <h1><strong>Title</strong></h1>
-                <p class="text-muted">10 January 2020 <a href="#">laravel</a></p>
+                <p class="text-muted">13 february, faisal munadhil <a href="#">Berita Politik</a></p>
             </div>
             <div class="col-md-8 mx-auto d-flex justify-content-center ">
                 <div class="w-100" style="height: 500px; background-color: grey; border-radius: 20px;"></div>

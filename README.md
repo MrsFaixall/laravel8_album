@@ -1,8 +1,35 @@
-# Nama Proyek
+<p align="center">
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400">
+  </a>
+</p>
 
-Deskripsi singkat tentang proyek Anda.
+<p align="center">
+  <a href="https://travis-ci.org/laravel/framework">
+    <img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status">
+  </a>
+  <a href="https://packagist.org/packages/laravel/framework">
+    <img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads">
+  </a>
+  <a href="https://packagist.org/packages/laravel/framework">
+    <img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version">
+  </a>
+  <a href="https://packagist.org/packages/laravel/framework">
+    <img src="https://img.shields.io/packagist/l/laravel/framework" alt="License">
+  </a>
+</p>
 
-## Daftar Isi
+# Laravel 8
+
+Laravel adalah framework PHP yang dirancang untuk membuat pengembangan aplikasi web menjadi lebih mudah dan efisien. Laravel menyediakan berbagai fitur yang kuat dan fleksibel, seperti routing, middleware, ORM (Eloquent), queue, dan banyak lagi.
+
+## Persyaratan Sistem
+
+Sebelum memulai instalasi Laravel 8, pastikan server atau mesin lokal Anda memenuhi persyaratan berikut:
+
+- PHP >= 7.3 (XAMPP versi 7.4 direkomendasikan)
+- Composer
+- MySQL atau database lainnya yang didukung
 
 - [Prasyarat](#prasyarat)
 - [Instalasi](#instalasi)

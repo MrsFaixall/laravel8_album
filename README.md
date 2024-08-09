@@ -24,17 +24,18 @@ Sebelum memulai, pastikan Anda memenuhi syarat berikut:
 ## Instalasi
 
 1. **Clone repositori:**
-       git clone https://github.com/username/nama-proyek.git
 
-2. **Masuk ke direktori proyek:**
+       git clone https://github.com/MrsFaixall/laravel8_album.git
 
-        cd nama-proyek
-3. **Install dependensi menggunakan Composer:**
+3. **Masuk ke direktori proyek:**
+
+        cd laravel8_album
+4. **Install dependensi menggunakan Composer:**
 
        ```bash
        composer install
 
-4. **Menyalin file .env.example ke .env:**
+5. **Menyalin file .env.example ke .env:**
 
         cp .env.example .env
 
@@ -50,8 +51,8 @@ Ubah pengaturan berikut sesuai dengan database Anda:
         DB_CONNECTION=mysql
         DB_HOST=127.0.0.1
         DB_PORT=3306
-        DB_DATABASE=nama_database
-        DB_USERNAME=username
+        DB_DATABASE=menyesuikan di phpmyadmin
+        DB_USERNAME=root
         DB_PASSWORD=password
 Konfigurasi
 Jika Anda menggunakan layanan pihak ketiga (seperti Mail, API, dll.), pastikan untuk mengonfigurasi kredensialnya di file .env.

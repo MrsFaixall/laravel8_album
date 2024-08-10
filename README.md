@@ -31,15 +31,6 @@ Sebelum memulai instalasi Laravel 8, pastikan server atau mesin lokal Anda memen
 - Composer
 - MySQL atau database lainnya yang didukung
 
-- [Prasyarat](#prasyarat)
-- [Instalasi](#instalasi)
-- [Konfigurasi](#konfigurasi)
-- [Menjalankan Aplikasi](#menjalankan-aplikasi)
-- [Penggunaan](#penggunaan)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [Lisensi](#lisensi)
-
 ## Prasyarat
 
 Sebelum memulai, pastikan Anda memenuhi syarat berikut:

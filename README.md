@@ -84,6 +84,8 @@ Ubah pengaturan berikut sesuai dengan database Anda:
 Konfigurasi
 Jika Anda menggunakan layanan pihak ketiga (seperti Mail, API, dll.), pastikan untuk mengonfigurasi kredensialnya di file .env.
 
+        php artisan migrate
+
 Menjalankan Aplikasi
 Anda dapat menjalankan aplikasi menggunakan server built-in Laravel:
 

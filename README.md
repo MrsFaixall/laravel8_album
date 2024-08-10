@@ -19,7 +19,7 @@
   </a>
 </p>
 
-# Laravel 8
+# Laravel 8, Progres Buat beberapa album/card
 
 Laravel adalah framework PHP yang dirancang untuk membuat pengembangan aplikasi web menjadi lebih mudah dan efisien. Laravel menyediakan berbagai fitur yang kuat dan fleksibel, seperti routing, middleware, ORM (Eloquent), queue, dan banyak lagi.
 
